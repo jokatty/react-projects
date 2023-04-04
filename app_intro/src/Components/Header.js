@@ -2,9 +2,12 @@ import reactLogo from '../images/react-logo.png';
 
 export default function Header(){
   return(
-    <>
-      <h1>I'm a simple header.</h1>
+    <nav>
       <img src={reactLogo} alt="react logo"/>
-    </>
+      <ul>
+        <li>pricing</li>
+        <li>contact us</li>
+      </ul>
+    </nav>
   )
 }
