@@ -1,3 +1,9 @@
+import Form from "./Components/Form"
+
 export default function App(){
-  return <h1>Hi</h1>
+  return (
+    <>
+      <Form />
+    </>
+  )
 }
