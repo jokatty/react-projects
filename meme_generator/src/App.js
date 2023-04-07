@@ -1,9 +1,9 @@
-import Form from "./Components/Form"
+import Meme from "./Components/Meme"
 
 export default function App(){
   return (
     <>
-      <Form />
+      <Meme/>
     </>
   )
 }
